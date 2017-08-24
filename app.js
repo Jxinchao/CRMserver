@@ -63,7 +63,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-app.listen('8005',function(){
+app.listen('8006',function(){
 	console.log('启动中....');
 })
 module.exports = app;
